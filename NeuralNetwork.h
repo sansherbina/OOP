@@ -1,6 +1,6 @@
 #include <math.h>
 #include <vector>
-
+//Привет Леха
 using namespace std;
 
 #define SIGMOID(x) (1.7159*tanh(0.66666667*x))
