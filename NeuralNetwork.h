@@ -17,7 +17,10 @@ typedef std::vector< NNNeuron* >  VectorNeurons;
 typedef std::vector< NNConnection > VectorConnections;
 typedef std::basic_string<TCHAR>  tstring;
 
-
+/* Сеть основана на одном из простейших типов нейронных сетей - сетей прямого распространения.
+Обучение происходит методом обратного расспространения.
+Основные методы - Calculate, Backpropagate.
+*/
 class NeuralNetwork  
 {
 public:
@@ -45,7 +48,6 @@ public:
 	void Initialize();
 
 	VectorLayers m_Layers;
-
 
 };
 
